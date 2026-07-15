@@ -17,42 +17,67 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My name is Hang Long (龙航), a M.S. student at the [School of Computer Science and Technology, Huazhong University of Science and Technology](http://www.cs.hust.edu.cn/), in the [HUST Media Lab](http://media.hust.edu.cn), advised by Prof. [Wei Yang](https://weiyang-hust.github.io/).
 
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<!-- # 🔥 News -->
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+**Equal contribution**$^\star$
+**Corresponding author**$^\dagger$
+
+<!-- LATO.2 -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/LATO.2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[LATO.2: Factorized 3D Mesh Generation with Vertex and Topology Flow](https://github.com/LoHhhha/LATO.2)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Hang Long\***, Tianhao Zhao\*, Junkai Lin, Youjia Zhang, Huipeng Guo, Rendong Liang, Jiale Xu, Jozef Hladký, Matthias Nießner, Wei Yang †
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Paper**](https://arxiv.org/pdf/2607.10623) | [**Code**](https://github.com/LoHhhha/LATO.2)
+- We introduce LATO.2, a factorized flow matching framework that decomposes mesh generation into a vertex flow followed by a connectivity flow conditioned on the realized vertices, both anchored to a shared coarse voxel scaffold. LATO.2 employs dedicated VAEs to recover vertices at sub‑voxel precision and embed discrete connectivity into a continuous latent space, disentangling continuous geometry from discrete topology. This factorization enables part‑wise generation with full latent capacity per part and topology‑adaptive editing without re‑optimization, achieving superior geometric fidelity and connectivity quality over state‑of‑the‑art methods.
 </div>
 </div>
+<!-- LATO.2 -->
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<!-- LATO -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/LATO.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[LATO: 3D Mesh Flow Matching with Structured TOpology Preserving LAtents](https://tianhaozhao668.github.io/LATO)
+
+Tianhao Zhao\*, Youjia Zhang\*, **Hang Long**, Jinshen Zhang, Wenbing Li, Yang Yang, Gongbo Zhang, Jozef Hladký, Matthias Nießner, Wei Yang †
+<span style="color:blue"><em>International Conference on Machine Learning (ICML), 2026</em></span>
+
+[**Project**](https://tianhaozhao668.github.io/LATO/) | [**Paper**](https://arxiv.org/pdf/2603.06357) | [**Code**](https://github.com/TianhaoZhao668/LATO)
+- We introduce LATO, a topology-preserving latent representation for scalable flow-matching-based generation of explicit 3D meshes. LATO encodes a mesh as a surface-anchored Vertex Displacement Field and reconstructs vertices through progressive voxel subdivision and pruning. For generation, LATO uses a two-stage flow matching process that first synthesizes structural voxels and then refines voxel-wise topology features.
+</div>
+</div>
+<!-- LATO -->
+
+<!-- MeshRipple -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Highlight</div><img src='images/MeshRipple.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MeshRipple: Structured Autoregressive Generation of Artist-Meshes](https://maymhappy.github.io/MeshRipple)
+
+Junkai Lin\*, **Hang Long\***, Huipeng Guo, Jielei Zhang, JiaYi Yang, Tianle Guo, Yang Yang, Jianwen Li, Wenxiao Zhang, Matthias Nießner, Wei Yang †
+<span style="color:red"><b>Highlight</b> </span><span style="color:blue"><em>Computer Vision and Pattern Recognition (CVPR), 2026</em></span>
+
+[**Project**](https://maymhappy.github.io/MeshRipple) | [**Paper**](https://arxiv.org/pdf/2512.07514) | [**Code**](https://github.com/MayMhappy/MeshRipple)
+- We introduce MeshRipple, a mesh generation framework that expands a surface outward from an active generation frontier, akin to a ripple, to overcome the long-range dependency bottlenecks of autoregressive serialization. MeshRipple rests on three key innovations: a frontier‑aware BFS tokenization that aligns generation order with surface topology; an expansive prediction strategy that sustains coherent, connected growth; and a sparse‑attention global memory that offers an effectively unbounded receptive field for resolving long‑range topological dependencies. This integrated design enables MeshRipple to generate meshes with high surface fidelity and topological completeness, surpassing strong recent baselines.
+</div>
+</div>
+<!-- MeshRipple -->
+
+<!-- # 🎖 Honors and Awards -->
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2025.09 - Present*, Master, Huazhong University of Science and Technology.
+- *2021.09 - 2025.06*, Undergraduate, Jinan University.
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2026.05 - Present*, Research Scientist Intern, Meshy AI.
+- *2024.07 - 2024.11*, AI Engineer Intern, Huawei Technologies Co., Ltd.
+- *2024.01 - 2024.02*, AI Engineer Intern, China Southern Power Grid Company Limited.
