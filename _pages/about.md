@@ -37,7 +37,6 @@ My name is Hang Long (龙航), a M.S. student at the [School of Computer Science
 **Hang Long\***, Tianhao Zhao\*, Junkai Lin, Youjia Zhang, Huipeng Guo, Rendong Liang, Jiale Xu, Jozef Hladký, Matthias Nießner, Wei Yang †
 
 [**Paper**](https://arxiv.org/pdf/2607.10623) | [**Code**](https://github.com/LoHhhha/LATO.2)
-
 - We introduce LATO.2, a factorized flow matching framework that decomposes mesh generation into a vertex flow followed by a connectivity flow conditioned on the realized vertices, both anchored to a shared coarse voxel scaffold. LATO.2 employs dedicated VAEs to recover vertices at sub‑voxel precision and embed discrete connectivity into a continuous latent space, disentangling continuous geometry from discrete topology. This factorization enables part‑wise generation with full latent capacity per part and topology‑adaptive editing without re‑optimization, achieving superior geometric fidelity and connectivity quality over state‑of‑the‑art methods.
 </div>
 </div>
@@ -54,7 +53,6 @@ Tianhao Zhao\*, Youjia Zhang\*, **Hang Long**, Jinshen Zhang, Wenbing Li, Yang Y
 <span style="color:blue"><em>International Conference on Machine Learning (ICML), 2026</em></span>
 
 [**Project**](https://tianhaozhao668.github.io/LATO/) | [**Paper**](https://arxiv.org/pdf/2603.06357) | [**Code**](https://github.com/TianhaoZhao668/LATO)
-
 - We introduce LATO, a topology-preserving latent representation for scalable flow-matching-based generation of explicit 3D meshes. LATO encodes a mesh as a surface-anchored Vertex Displacement Field and reconstructs vertices through progressive voxel subdivision and pruning. For generation, LATO uses a two-stage flow matching process that first synthesizes structural voxels and then refines voxel-wise topology features.
 </div>
 </div>
