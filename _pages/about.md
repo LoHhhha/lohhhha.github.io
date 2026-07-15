@@ -19,8 +19,14 @@ redirect_from:
 
 My name is Hang Long (龙航), a M.S. student at the [School of Computer Science and Technology, Huazhong University of Science and Technology](http://www.cs.hust.edu.cn/), in the [HUST Media Lab](http://media.hust.edu.cn), advised by Prof. [Wei Yang](https://weiyang-hust.github.io/).
 
+<span class='anchor' id='-internships'></span>
 
-<!-- # 🔥 News -->
+# Internships
+- *2026.05 - Present*, Research Scientist Intern, Meshy AI.
+- *2024.07 - 2024.11*, AI Engineer Intern, Huawei Technologies Co., Ltd.
+- *2024.01 - 2024.02*, AI Engineer Intern, China Southern Power Grid Company Limited.
+
+<span class='anchor' id='-publications'></span>
 
 # Publications 
 
@@ -76,11 +82,8 @@ Junkai Lin\*, **Hang Long\***, Huipeng Guo, Jielei Zhang, JiaYi Yang, Tianle Guo
 
 <!-- # 🎖 Honors and Awards -->
 
+<span class='anchor' id='-educations'></span>
+
 # Educations
 - *2025.09 - Present*, Master, Huazhong University of Science and Technology.
 - *2021.09 - 2025.06*, Undergraduate, Jinan University.
-
-# Internships
-- *2026.05 - Present*, Research Scientist Intern, Meshy AI.
-- *2024.07 - 2024.11*, AI Engineer Intern, Huawei Technologies Co., Ltd.
-- *2024.01 - 2024.02*, AI Engineer Intern, China Southern Power Grid Company Limited.
