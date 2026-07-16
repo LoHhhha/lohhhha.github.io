@@ -30,7 +30,7 @@ My name is Hang Long (龙航), a M.S. student at the [School of Computer Science
 
 # Publications 
 
-$^\star$*Equal contribution* | $^\dagger$*Corresponding author*
+$^\star$*Equal contribution* · $^\dagger$*Corresponding author*
 
 <!-- LATO.2 -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/LATO.2.png' alt="sym" width="100%"></div></div>
