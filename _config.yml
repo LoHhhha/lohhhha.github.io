@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Hang Long"
-description              : "a M.S. student at Huazhong University of Science and Technology(HUST). Focusing on 3D generation. "
+description              : "M.S. student at HUST. Focusing on 3D generation. "
 repository               : "LoHhhha/LoHhhha.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "Hang Long"
   avatar           : "images/myself.png"
   bio              : "Huazhong University of Science and Technology"
-  location         : "Guangdong / Wuhan, China"
+  location         : "Wuhan, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=4e56z0oAAAAJ"
