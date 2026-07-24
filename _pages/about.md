@@ -40,7 +40,7 @@ $^\star$*Equal contribution* · $^\dagger$*Corresponding author*
 
 **Hang Long\***, Tianhao Zhao\*, Junkai Lin, Youjia Zhang, Huipeng Guo, Rendong Liang, Jiale Xu, Jozef Hladký, Matthias Nießner, Wei Yang †
 
-[**Paper**](https://arxiv.org/pdf/2607.10623) | [**Code**](https://github.com/LoHhhha/LATO.2)
+[**Project**](https://lohhhha.github.io/LATO.2/) | [**Paper**](https://arxiv.org/pdf/2607.10623) | [**Code**](https://github.com/LoHhhha/LATO.2)
 - We introduce LATO.2, a factorized flow matching framework that decomposes mesh generation into a vertex flow followed by a connectivity flow conditioned on the realized vertices, both anchored to a shared coarse voxel scaffold. LATO.2 employs dedicated VAEs to recover vertices at sub‑voxel precision and embed discrete connectivity into a continuous latent space, disentangling continuous geometry from discrete topology. This factorization enables part‑wise generation with full latent capacity per part and topology‑adaptive editing without re‑optimization, achieving superior geometric fidelity and connectivity quality over state‑of‑the‑art methods.
 </div>
 </div>
